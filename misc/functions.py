@@ -1,9 +1,6 @@
 from random import shuffle, choice
 from itertools import cycle, islice, permutations, chain, product, count
-try:
-    from collections.abc import Iterable
-except ImportError:
-    from collections import Iterable
+from collections.abc import Iterable
 from .numerical import INF
 import operator
 from functools import reduce
