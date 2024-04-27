@@ -1,5 +1,5 @@
-from collections import deque, namedtuple, defaultdict, Counter as CountDict, Iterator, Set
-from collections.abc import Mapping, Iterable
+from collections import deque, namedtuple, defaultdict, Counter as CountDict, Set
+from collections.abc import Mapping, Iterable, Iterator
 
 from heapq import heappush, heappop, heapify
 import numpy as np
