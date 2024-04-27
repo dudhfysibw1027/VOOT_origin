@@ -3,7 +3,7 @@ from collections.abc import Mapping, Iterable, Iterator, Set
 
 from heapq import heappush, heappop, heapify
 import numpy as np
-from string import join
+# from string import join
 import types
 
 # Old style classes don't inherit from object => type(old) != old.__class__
