@@ -1,6 +1,8 @@
 from openravepy import planningutils, PlannerStatus, RaveCreateTrajectory
 
 from manipulation.motion.cspace import *
+import os, sys
+sys.path.append('/git/VOOT_origin/manipulation')
 from motion_planners.smoothing import smooth_path
 from manipulation.motion.primitives import distance_fn, sample_fn, extend_fn, collision_fn
 from motion_planners.rrt_connect import birrt
