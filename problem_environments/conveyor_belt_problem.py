@@ -166,7 +166,7 @@ def create_conveyor_belt_problem(env, obj_setup=None, problem_idx=0):
     else:
         env.Load(fdir + '/convbelt_env.xml')
     """
-
+    print(env.GetRobots())
     robot = env.GetRobots()[0]
     set_default_robot_config(robot)
 
