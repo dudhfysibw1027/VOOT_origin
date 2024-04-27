@@ -8,7 +8,7 @@ from mover_library.utils import get_pick_domain, get_pick_base_pose_and_grasp_fr
 from mover_library.samplers import randomly_place_in_region
 import numpy as np
 
-problem = ConveyorBelt(problem_idx=1)
+problem = ConveyorBelt(problem_idx=1, n_actions_per_node=3)
 env=problem.env
 robot = env.GetRobots()[0]
 env.SetViewer('qtcoin')
