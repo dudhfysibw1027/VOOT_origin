@@ -5,7 +5,7 @@ from .generator import Generator
 from .doo_utils.doo_tree import BinaryDOOTree
 from mover_library.utils import pick_parameter_distance, place_parameter_distance
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import copy
 
 
