@@ -1,7 +1,5 @@
-try:
-  from collections.abc import deque, namedtuple, defaultdict, Counter as CountDict, Mapping, Iterable, Iterator, Set
-except:
-  from collections import deque, namedtuple, defaultdict, Counter as CountDict, Mapping, Iterable, Iterator, Set
+from collections.abc import deque, namedtuple, defaultdict, Counter as CountDict, Mapping, Iterable, Iterator, Set
+# from collections import deque, namedtuple, defaultdict, Counter as CountDict, Mapping, Iterable, Iterator, Set
 from heapq import heappush, heappop, heapify
 import numpy as np
 from string import join
