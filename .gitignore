@@ -1,0 +1,6 @@
+# mstest test results
+test_results/
+tmp.txt
+*/__pycache__/
+*.pyc
+.idea/
