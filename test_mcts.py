@@ -1,4 +1,4 @@
-# import sys, os
+import sys, os
 
 # sys.path.append(os.getcwd())
 sys.path.append("/git/VOOT_origin/openrave_wrapper")
