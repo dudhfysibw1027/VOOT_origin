@@ -1,7 +1,7 @@
 try:
-    from collections.abc import Iterable
+    from collections.abc import Iterator
 except ImportError:
-    from collections import Iterable
+    from collections import Iterator
 from itertools import islice
 from .numerical import INF
 
